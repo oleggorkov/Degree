@@ -90,3 +90,89 @@ body {
 .right-menu-link:hover {
     color: #19b5fe;
 }
+
+.header-heading {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-top: 78px;
+    text-align: center;
+}
+
+.heading-span {
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+}
+
+.header-text {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+}
+
+.header-form {
+    margin-top: 45px;
+    margin-left: 516px;
+    margin-bottom: 21px;
+}
+
+.input-mail,
+.input-name,
+.input-phone {
+    width: 290px;
+    height: 51px;
+    background-color: #ffffff;
+    color: #606060;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-left: 27px;
+    margin-right: 9px;
+    border-radius: 30px;
+    outline: none;
+    padding-right: 27px;
+}
+
+.header-btn {
+    display: block;
+    text-decoration: none;
+    width: 232px;
+    height: 61px;
+    background-color: #19b5fe;
+    border-radius: 30px;
+    outline: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 61px;
+    margin-left: 844px;
+    transition: all 0.5s;
+    border: 1px solid transparent;
+}
+
+.header-btn:hover {
+    color: #19b5fe;
+    background-color: #ffffff;
+    border: 1px solid #19b5fe;
+}
+
+.header-text-down {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 22px;
+    margin-left: 757px;
+}
+
+.header-mouse {
+    margin-top: 76px;
+    margin-left: 952px;
+}
