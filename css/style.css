@@ -291,3 +291,115 @@ body {
     display: flex;
 }
 
+.radio-form-text {
+    color: #ffffff;
+    display: block;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.radio-form {
+    width: 654px;
+    height: 129px;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    padding: 15px 25px;
+}
+
+.radio-form-range {
+    width: 594px;
+    margin-top: 30px;
+    height: 35px;
+}
+
+.choice-packet {
+    width: 654px;
+    height: 129px;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    padding: 15px 25px;
+    margin-top: 10px;
+}
+
+.cost-flex-form {
+    margin-top: 39px;
+}
+
+.choice-packet-heading {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 19px;
+}
+
+.choice-packet-flex {
+    display: flex;
+}
+
+.choice-packet-btn {
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    line-height: 45px;
+    display: block;
+    width: 193px;
+    height: 45px;
+    border-radius: 7px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #ffffff;;
+}
+
+.choice-packet-btn:nth-child(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.choice-packet-btn:hover {
+    background-color: #19b5fe;
+    border: 1px solid #19b5fe;
+}
+
+.choice-packet-btn:hover .drop-packet-btn {
+    z-index: 2;
+    display: block;
+}
+
+.drop-packet-btn {
+    display: none;
+    position: absolute;
+    width: 381px;
+    height: auto;
+    text-align: center;
+    padding: 25px 20px;
+    background-color: #ffffff;
+    top: 50px;
+    left: -100px;
+    border-radius: 7px;
+}
+
+.drop-text {
+    color: #464646;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.drop-packet-btn:after {
+    content: "";
+    width: 34px;
+    height: 34px;
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    top: -8px;
+    left: 175px;
+    transform: rotate(45deg);
+    border-top: 1px solid #e6e6e6;
+    border-left: 1px solid #e6e6e6;
+}
