@@ -6,6 +6,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    width: 1920px;
 }
 
 .container {
@@ -15,7 +16,6 @@ body {
 
 .header {
     background-image: url("../img/main-img.png");
-    width: 1920px;
     height: 700px;
 }
 
@@ -176,3 +176,118 @@ body {
     margin-top: 76px;
     margin-left: 952px;
 }
+
+.services {
+    height: 1226px;
+}
+
+.services-heading {
+    color: #363636;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 38px;
+    padding-top: 62px;
+    text-align: center;
+}
+
+.services-heading-line {
+    width: 350px;
+    margin-top: 25px;
+    border-bottom: 2px solid #19b5fe;
+    margin-left: 390px;
+}
+
+.services-flex {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-flex-list {
+    width: 555px;
+    height: 320px;
+    margin-bottom: 20px;
+}
+
+.services-flex-list:nth-child(2n+1) {
+    margin-right: 29px;
+}
+
+.services-flex-heading {
+    color: #19b5fe;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.services-flex-list:first-child {
+   padding-top: 58px;
+}
+
+.services-list-link {
+    display: block;
+    text-decoration: none;
+    background-color: #19b5fe;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    width: 181px;
+    height: 51px;
+    border-radius: 30px;
+    margin-top: 25px;
+    text-align: center;
+    line-height: 51px;
+    transition: all 0.5s;
+}
+
+.services-list-link:hover {
+    background-color: #ffd801;
+    color: #ffffff;
+}
+
+.services-flex-list:nth-child(4) {
+     padding-top: 99px;
+ }
+
+.services-flex-list:nth-child(5) {
+    padding-top: 99px;
+}
+
+.services-flex-heading {
+    margin-bottom: 5px;
+}
+
+.sum-cost {
+    height: 622px;
+    margin-top: 52px;
+    background-image: url("../img/sum-cost.png");
+}
+
+.main-cost-heading {
+    text-align: center;
+    padding-top: 62px;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+.main-cost-line {
+    margin-top: 29px;
+    border-bottom: 1px solid #ffffff;;
+    width: 377px;
+    margin-left: 772px;
+}
+
+.main-cost-text {
+    margin-top: 24px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+.main-cost-flex {
+    display: flex;
+}
+
