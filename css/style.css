@@ -331,6 +331,11 @@ body {
     height: 35px;
 }
 
+output {
+    color: white;
+    margin-top: 20px;
+}
+
 .choice-packet {
     width: 654px;
     height: 129px;
@@ -434,6 +439,24 @@ body {
     font-weight: 400;
     text-align: center;
     margin-bottom: 15px;
+}
+
+#range {
+    -webkit-appearance: none;
+    border: 1px solid #ffffff;
+    opacity: 0.5;
+    width: 600px;
+    height: 9px;
+    outline: none;
+}
+
+#range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 23px;
+    height: 23px;
+    border-radius: 30px;
+    background-color: #19b5fe;
+    cursor: pointer;
 }
 
 .cost-info-btn {
@@ -706,7 +729,19 @@ body {
 }
 
 .trust-slider-range {
+    -webkit-appearance: none;
+    border: 1px solid #464646;
     width: 1140px;
+    height: 5px;
+    outline: none;
+}
+
+.trust-slider-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 32px;
+    height: 11px;
+    background-color: #19b5fe;
+    cursor: pointer;
 }
 
 .team {
