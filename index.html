@@ -89,6 +89,10 @@
                 <div class="cost-flex-form">
                     <form action="#" class="radio-form">
                         <label for="range" class="radio-form-text">Площадь помещения:</label>
+                        <label class="radio-form-label" for="range">100м<sup>2</sup></label>
+                        <label class="radio-form-label" for="range">10 000м<sup>2</sup></label>
+                        <label class="radio-form-label" for="range">250 000м<sup>2</sup></label>
+                        <label class="radio-form-label" for="range">500 000м<sup>2</sup></label>
                         <input id="range" type="range" min="100" max="500000" value="100" step="100" class="radio-form-range">
                     </form>
                     <div class="choice-packet">
@@ -314,7 +318,11 @@
             </div>
         </div>
     </div>
-    <div class="map"></div>
+    <div class="map">
+        <script type="text/javascript"
+                charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A64f1f95de8f38fc423aeb82b3b45829639986d5a8dcee8713233d339caba5b1d&amp;width=1920&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
     <footer class="footer">
         <div class="container">
             <div class="footer-up">
@@ -332,10 +340,21 @@
                 </div>
                 <div class="footer-up-elem">
                     <p class="footer-text-up">Мы в социальных сетях:</p>
-                    <p class="footer-text-down"></p>a
+                    <div class="footer-text-down">
+                        <a class="footer-text-down-link" href="#"><img src="img/facebook.png" alt="image" class="footer-text-down-image"></a>
+                        <a class="footer-text-down-link" href="#"><img src="img/google.png" alt="image" class="footer-text-down-image"></a>
+                        <a class="footer-text-down-link" href="#"><img src="img/instagram.png" alt="image" class="footer-text-down-image"></a>
+                    </div>
                 </div>
             </div>
-            <div class="footer-down"></div>
+            <div class="footer-line"></div>
+            <div class="footer-down">
+                <p class="footer-down-left">© Kazteleport, 2015. Все права защищены</p>
+                <div class="footer-down-right">
+                    <p class="footer-down-right-text">Создание сайта - </p>
+                    <img src="img/logo-2.png" alt="logo" class="footer-down-right-logo">
+                </div>
+            </div>
         </div>
     </footer>
 </body>
