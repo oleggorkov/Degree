@@ -1136,5 +1136,7 @@ output {
     opacity: 0.8;
     margin-top: 22px;
     margin-right: 8px;
+    display: block;
+    text-decoration: none;
 }
 
